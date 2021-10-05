@@ -35,7 +35,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body class="stop-scroll">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top">
@@ -69,10 +69,24 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+<!-- 
+  <div class="fullscreen-bg">
+      <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+          <source src="assets/img/video1.mov" type="video/mov">
+      </video>
+  </div> -->
+
+
   <section id="hero" class="d-flex align-items-center">
-    <div class="container d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Kelly Adams</h1>
-      <h2>I'm a professional illustrator from San Francisco</h2>
+
+    <video autoplay muted loop id="myVideo">
+      <source src="assets/img/video1.mov">
+    </video>
+
+
+    <div class="container content d-flex flex-column align-items-center" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="text-white">Kelly Adams</h1>
+      <h2 class="text-white">I'm a professional illustrator from San Francisco</h2>
       <a href="about.html" class="btn-about">About Me</a>
     </div>
   </section><!-- End Hero -->
